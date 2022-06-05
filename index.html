@@ -7,8 +7,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
+    <!-- Warning modal -->
     <div
-      class="flex items-center p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-x-4 mt-12"
+      class="flex items-center p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-x-4 mt-12 hidden"
     >
       <img
         src="./assets/img/warning.svg"
@@ -19,6 +20,46 @@
         <div class="text-xl font-medium text-black">Are you sure?</div>
         <p class="text-slate-500">You are about to delete a post</p>
       </div>
+    </div>
+
+    <!-- Colors -->
+    <div class="p-2 hidden">
+      <!-- Text -->
+      <p class="text-[#bf94ab]">Hello</p>
+      <br />
+
+      <!-- Background -->
+      <div class="bg-red-200">Hello</div>
+      <br />
+
+      <!-- Underline -->
+      <div class="underline decoration-blue-300">Hello</div>
+      <br />
+
+      <!-- Border -->
+      <div class="border border-red-200">Hello</div>
+      <br />
+
+      <!-- Divider -->
+      <div class="divide-y divide-blue-800">
+        <div>Hello</div>
+        <div>Hello</div>
+        <div>Hello</div>
+        <div>Hello</div>
+        <div>Hello</div>
+      </div>
+      <br />
+
+      <!-- Outline -->
+      <div class="outline outline-yellow-200">Hello</div>
+      <br />
+
+      <!-- Shadow -->
+      <div class="shadow-lg shadow-cyan-500/95">Hello</div>
+      <br />
+
+      <!-- Accent Colors -->
+      <input type="checkbox" checked class="accent-purple-500" />
     </div>
   </body>
 </html>
